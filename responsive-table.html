@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iCare Manager</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Red Nose Rentals provides affordable and innovative photo booth for rent in San Diego, Virginia, New Jersey, New York and Miami at the best price.">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/akhtar.css">
+</head>
+
+<style>
+    body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+    }
+    table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    }
+    table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+    }
+    table tr {
+    background: #e7f2f1;
+    padding: .35em;
+    }
+    table th,
+    table td {
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #FFF;
+    }
+    table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    }
+    @media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 1.3em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    table td:before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    }
+</style>
+
+
+<body>
+<table>
+    <caption>Responsive Table</caption>
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Name">John smith</td>
+        <td data-label="Description">John Smith was an English soldier</td>
+        <td data-label="Amount">$1,190</td>
+        <td data-label="Date">03/01/2016 - 03/31/2016</td>
+      </tr>
+      <tr>
+        <td data-label="Name">John smith</td>
+        <td data-label="Description">John Smith was an English soldier</td>
+        <td data-label="Amount">$1,190</td>
+        <td data-label="Date">03/01/2016 - 03/31/2016</td>
+      </tr>
+      <tr>
+        <td data-label="Name">John smith</td>
+        <td data-label="Description">John Smith was an English soldier</td>
+        <td data-label="Amount">$1,190</td>
+        <td data-label="Date">03/01/2016 - 03/31/2016</td>
+      </tr>
+      <tr>
+        <td data-label="Name">John smith</td>
+        <td data-label="Description">John Smith was an English soldier</td>
+        <td data-label="Amount">$1,190</td>
+        <td data-label="Date">03/01/2016 - 03/31/2016</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
